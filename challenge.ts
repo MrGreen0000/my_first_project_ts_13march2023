@@ -1,7 +1,7 @@
 interface User {
   name: string;
   age?: number;
-  birthday?: any;
+  birthday?: string;
 }
 
 const prettyPrintWilder = (users: User[]): void => {
